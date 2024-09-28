@@ -1,0 +1,40 @@
+/* /* nav related styles */
+
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-primary{
+    color: aqua;
+}
+
+.btn-primary{
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aqua;
+}
